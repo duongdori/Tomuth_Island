@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e948f6190db442b817fb5e31f5c1a9d, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  itemID: 100
+  itemName: Wood
+  itemIcon: {fileID: 21300000, guid: 4625a575862ba29438e46f12e0d9d748, type: 3}
+  itemDescription: Versatile material from trees used for crafting, construction,
+    and fuel.
+  itemPrefab: {fileID: 5302291402167530805, guid: ef091843de7db814fbd5fa113732f30f,
+    type: 3}
+  itemVisual: {fileID: 7499453253724531313, guid: d5ccab98324598744a9f470e00d703c8,
+    type: 3}
+  isStackable: 1
+  maxStackSize: 99
+  isLeftHand: 0
+  canHoldOnHand: 0
+  canSpecialAttack: 0
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  durabilityMax: 100
+  durabilityValue: 0
+  soundFX: {fileID: 0}

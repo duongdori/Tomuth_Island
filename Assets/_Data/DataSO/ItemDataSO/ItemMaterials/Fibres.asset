@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e948f6190db442b817fb5e31f5c1a9d, type: 3}
+  m_Name: Fibres
+  m_EditorClassIdentifier: 
+  itemID: 103
+  itemName: Fibres
+  itemIcon: {fileID: 21300000, guid: f5f9ac7996ed64a4e9d5cfbf8e13600b, type: 3}
+  itemDescription: Threadlike materials from plants or animals for textiles and ropes.
+  itemPrefab: {fileID: 6619387432865882544, guid: 99c682a73b0a54f44b2c0b3acba851a3,
+    type: 3}
+  itemVisual: {fileID: 6619387432865882544, guid: 99c682a73b0a54f44b2c0b3acba851a3,
+    type: 3}
+  isStackable: 1
+  maxStackSize: 99
+  isLeftHand: 0
+  canHoldOnHand: 0
+  canSpecialAttack: 0
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  durabilityMax: 100
+  durabilityValue: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051241120b95473597943ef437fa2482, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: 
+  itemID: 7
+  itemName: Torch
+  itemIcon: {fileID: 21300000, guid: 02f63a7d9f0dfec47acc190e7f7df5e1, type: 3}
+  itemDescription: A portable light source made from a wooden.
+  itemPrefab: {fileID: 278309453587301626, guid: 0a623f794ebaf024b940520ec2817f49,
+    type: 3}
+  itemVisual: {fileID: 5935227231852244944, guid: b80c992918ca2c84daecadf6950e64ac,
+    type: 3}
+  isStackable: 0
+  maxStackSize: 1
+  isLeftHand: 0
+  canHoldOnHand: 1
+  canSpecialAttack: 0
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: a63084703c0059442ba72dd6ba206256, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: bae1a0a2f110f514b9412b5a88801059, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  durabilityMax: 100
+  durabilityValue: 1
+  attackAnimations:
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.15230767
+      - 0.18461536
+      - NaN
+      _Callbacks: []
+      _Names:
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: 220f23e06d69b3c43ad67fd76d298e51, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  attackList:
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 5
+    <KnockBack>k__BackingField: 0

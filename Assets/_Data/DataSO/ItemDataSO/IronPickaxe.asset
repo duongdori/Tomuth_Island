@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051241120b95473597943ef437fa2482, type: 3}
+  m_Name: IronPickaxe
+  m_EditorClassIdentifier: 
+  itemID: 4
+  itemName: Iron Pickaxe
+  itemIcon: {fileID: 21300000, guid: 02f63a7d9f0dfec47acc190e7f7df5e1, type: 3}
+  itemDescription: A stronger version made from iron, allowing deeper mining.
+  itemPrefab: {fileID: 5763611592521382299, guid: a0e73e002e410c5409774d871c3dc8b1,
+    type: 3}
+  itemVisual: {fileID: 2092657273348524322, guid: 216fc8b1726c9bf44ac0260ee9ffeb3c,
+    type: 3}
+  isStackable: 0
+  maxStackSize: 1
+  isLeftHand: 0
+  canHoldOnHand: 1
+  canSpecialAttack: 0
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: a63084703c0059442ba72dd6ba206256, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: bae1a0a2f110f514b9412b5a88801059, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+  durabilityMax: 100
+  durabilityValue: 1
+  soundFX: {fileID: 8300000, guid: 46d31f47e454cd143bd8338efb118cb9, type: 3}
+  attackAnimations:
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.309
+      - 0.4662
+      - 0.6696
+      - 0
+      _Callbacks: []
+      _Names:
+      - PlaySoundFX
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: 3d6d4c8853ce8ef478f65d69872e1c11, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: 0
+    soundFX: {fileID: 8300000, guid: 674fd2f03c8ed5045b212ea20a13e3a0, type: 3}
+  attackList:
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 12
+    <KnockBack>k__BackingField: 0

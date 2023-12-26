@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051241120b95473597943ef437fa2482, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: 5
+  itemName: Sword
+  itemIcon: {fileID: 21300000, guid: d57230c2e1610754498b3fa54bee644f, type: 3}
+  itemDescription: A basic combat weapon used to ensure safety when facing enemies
+    or creatures.
+  itemPrefab: {fileID: 2116522253648765842, guid: c4c424bd5a1d5a248a8e3db9a39e3249,
+    type: 3}
+  itemVisual: {fileID: 9162042459243288869, guid: c7398d3fb4df01d44a29c047df232337,
+    type: 3}
+  isStackable: 0
+  maxStackSize: 1
+  isLeftHand: 0
+  canHoldOnHand: 1
+  canSpecialAttack: 1
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 4f37f9df6d08550408d7dfa4f5af77c6, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 8246dcee2041fce41b85c26255427d19, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  durabilityMax: 100
+  durabilityValue: 2
+  soundFX: {fileID: 8300000, guid: 46d31f47e454cd143bd8338efb118cb9, type: 3}
+  attackAnimations:
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.1250769
+      - 0.16153844
+      - 0.24230766
+      - 0.32307687
+      _Callbacks: []
+      _Names:
+      - PlaySoundFX
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: 220f23e06d69b3c43ad67fd76d298e51, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    soundFX: {fileID: 8300000, guid: 35b8066607f260f44b32287197608aa4, type: 3}
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.07525422
+      - 0.14644064
+      - 0.17796606
+      - 0.40677956
+      _Callbacks: []
+      _Names:
+      - PlaySoundFX
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: f72e5db86e5bef74d81ffb8331ecc292, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    soundFX: {fileID: 8300000, guid: 5d40b08eb97dfec459c89f8dad15d7bc, type: 3}
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.05599998
+      - 0.19999993
+      - 0.23319991
+      - 0.7399997
+      _Callbacks: []
+      _Names:
+      - PlaySoundFX
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: 87282a5bd266514468115dfad10d0cb2, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    soundFX: {fileID: 8300000, guid: 3bd6a164e449de7469b2be65e1950bda, type: 3}
+  attackList:
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 10
+    <KnockBack>k__BackingField: 0
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 12
+    <KnockBack>k__BackingField: 0
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 15
+    <KnockBack>k__BackingField: 0

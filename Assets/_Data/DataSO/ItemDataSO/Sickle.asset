@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051241120b95473597943ef437fa2482, type: 3}
+  m_Name: Sickle
+  m_EditorClassIdentifier: 
+  itemID: 6
+  itemName: Sickle
+  itemIcon: {fileID: 21300000, guid: c98e9fb9e8f6f694083d9c9f931cc7aa, type: 3}
+  itemDescription: A tool used for cutting grass or crops during harvesting.
+  itemPrefab: {fileID: 260812779457809909, guid: c449e8b7543f70b4f872f79bb255ef52,
+    type: 3}
+  itemVisual: {fileID: 8024496641230571185, guid: 76994282a6df048429104f8bdbd82daf,
+    type: 3}
+  isStackable: 0
+  maxStackSize: 1
+  isLeftHand: 0
+  canHoldOnHand: 1
+  canSpecialAttack: 0
+  equipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 4f37f9df6d08550408d7dfa4f5af77c6, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  unequipAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 8246dcee2041fce41b85c26255427d19, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  durabilityMax: 100
+  durabilityValue: 1
+  attackAnimations:
+  - _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes:
+      - 0.16153844
+      - 0.24230766
+      - 0.32307687
+      _Callbacks: []
+      _Names:
+      - EnableWeapon
+      - DisableWeapon
+    _Clip: {fileID: 7400000, guid: 220f23e06d69b3c43ad67fd76d298e51, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  attackList:
+  - <AnimationName>k__BackingField: 
+    <TransitionDuration>k__BackingField: 0
+    <ComboStateIndex>k__BackingField: 0
+    <ComboAttackTime>k__BackingField: 0
+    <ForceTime>k__BackingField: 0
+    <Force>k__BackingField: 0
+    <Damage>k__BackingField: 8
+    <KnockBack>k__BackingField: 0

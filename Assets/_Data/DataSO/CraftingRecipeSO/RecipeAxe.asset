@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e339c5312b76f438c2ed1eb37fbd9f, type: 3}
+  m_Name: RecipeAxe
+  m_EditorClassIdentifier: 
+  inputItemList:
+  - itemData: {fileID: 11400000, guid: fc2859350b95a97429b48c328666dbe3, type: 2}
+    amount: 5
+  - itemData: {fileID: 11400000, guid: 0771fe1e4a4a406448bec74f6fccbbdf, type: 2}
+    amount: 4
+  outputItem:
+    itemData: {fileID: 11400000, guid: 649b1e1ecef154543a696097126586e5, type: 2}
+    amount: 1
+  craftingTime: 3
